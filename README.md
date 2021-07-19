@@ -48,7 +48,7 @@ if __name__ == '__main__':
 
 ## Configure Pay Connector Add-on
 
-- Setup your pay connector with the appropriate `Username/Password` (as defined earlier in your .js file).  Set the `ENDPOINT URL` to the the URL captured from Ngrok
+- Setup your pay connector with the appropriate `Username/Password` (as defined earlier in your .py file).  Set the `ENDPOINT URL` to the the URL captured from Ngrok
 ![Sweet configuration image on Github](https://github.com/phundal-twilio/twilio-payment-simulator-generic-pay-python/blob/main/Connector-configure.png?raw=true)
 
 ## Start the simulator
