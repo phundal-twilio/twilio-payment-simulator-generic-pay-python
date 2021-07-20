@@ -23,6 +23,22 @@ To be able to have your Twilio <pay> verb reach out to this connector, it will n
 - When Ngrok starts, capture the URL represented bye the HTTPS port that is setup (highlighted in blue below).  We'll use this in configuring the pay connector later.
 ![Sweet configuration image on Github](https://github.com/phundal-twilio/twilio-payment-simulator-generic-pay-python/blob/main/Ngrok-sample.png?raw=true)
 
+## Install the python packages into a virtual environment
+
+Within the project directory, create a virtual environment for requisite python packages (more on [Python virtual environments](https://docs.python.org/3/library/venv.html))
+```
+% python3 -m venv env
+```
+
+Start the virtual environment
+```
+% source env/bin/activate
+```
+
+Install the required python packages
+```
+% pip3 install -r requirements.txt
+```
 
 ## Configure simulator
 
