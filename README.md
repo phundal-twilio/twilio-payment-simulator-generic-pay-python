@@ -1,6 +1,6 @@
 # Twilio Payment Processing Simulator for Generic Pay connector
 
-A simulator for testing Twilio Generic Pay Connectors
+A Python simulator for testing Twilio Generic Pay Connectors
 
 
 ## Prerequisites
@@ -56,10 +56,8 @@ if __name__ == '__main__':
 ## Setup and configure Ngrok
 To be able to have your Twilio pay verb/widget reach out to this connector, it will need to be available on the web.  
 
-- Download and install Ngrork:
-```
-https://ngrok.com/download
-```
+- Download and install Ngrork: https://ngrok.com/download
+
 
 - Startup Ngrok (default port is 8081)
 ```
